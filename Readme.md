@@ -6,8 +6,7 @@ The USBFlashTrig system consists of 3 layers and 4 parts:
 -  a linux kernel module or a userspace libusb program
 -  a controller 
 -  a hardware interface board
-The hardware interface board is responsible for the analog actuation of the lights as well as providing the correct electrical specifications for the camera triggering.
-The kernel module exposes sysfs-files that correspond to the functions of the controller.
+
 
 ### Kernel Module
 The kernel module must be compiled and loaded by executing
